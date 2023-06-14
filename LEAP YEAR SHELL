@@ -1,0 +1,8 @@
+echo "enter the number"
+read y
+h='expr$y%4'
+if[$h-eq0]
+then
+echo"$h is leap year"
+else
+echo"$h is not leap year"
